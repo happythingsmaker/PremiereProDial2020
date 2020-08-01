@@ -1,7 +1,7 @@
 # NewPremiereProLightroomDial
 
-https://www.youtube.com/watch?v=dJJ1wlJPqwE
+TBD
 
 project documentation
 
-https://eunchan.me/Premiere-Pro-Lightroom-DIal-DIY-version-2-f097ab2f095145898f4f9f34fbc3312f
+https://eunchan.me/Premiere-Pro-Dial-version-2020-c197ad66c3134cb99df464667e2c442d
