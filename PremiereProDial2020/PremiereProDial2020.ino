@@ -2,8 +2,7 @@
 // https://www.youtube.com/watch?v=dJJ1wlJPqwE
 
 // left right
-// up down
-// everytime you clicks button, it changes arrow direction from horizontal to vertical
+// keeping pressing -> keeping seeking
 
 // Resolution : some encoder is too sensitive. this reduces sensitivity.
 #define RESOLUTION 2
