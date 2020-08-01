@@ -112,7 +112,9 @@ void loop() {
   // read button (short or long)
   if (digitalRead(BUTTON) == LOW) {
     if (lastButtonState == LOW) {
-      // LOW -> LOW : nothing to do
+      Keyboard.press(KEY_RIGHT_ARROW);
+
+      // LOW -> LOW : keep pressing -> arrow
     } else {
       // HIGH-> LOW
       delay(300); // ignoring chattering
@@ -120,9 +122,11 @@ void loop() {
     lastButtonState = LOW;
   } else {
     if (lastButtonState == LOW) {   // LOW -> HIGH : check whether long press or not
-      changeMode();
+      //      changeMode();
+      Keyboard.releaseAll();
+
     }
-    else {                          // HIGH -> HIGH : noting to do
+    else {                          // HIGH -> HIGH :
     }
     lastButtonState = HIGH;
   }
@@ -154,4 +158,3 @@ void rotateRight() {
     Keyboard.releaseAll();
   }
 }
-
