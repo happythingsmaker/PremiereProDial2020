@@ -111,7 +111,7 @@ void loop() {
   // read button (short or long)
   if (digitalRead(BUTTON) == LOW) {
     if (lastButtonState == LOW) {
-      Keyboard.press(KEY_RIGHT_ARROW);
+//      Keyboard.press(KEY_RIGHT_ARROW);
 
       // LOW -> LOW : keep pressing -> arrow
     } else {
@@ -121,7 +121,7 @@ void loop() {
     lastButtonState = LOW;
   } else {
     if (lastButtonState == LOW) {   // LOW -> HIGH : check whether long press or not
-      //      changeMode();
+      Keyboard.press(KEY_F2);
       Keyboard.releaseAll();
 
     }
