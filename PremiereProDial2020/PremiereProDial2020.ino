@@ -15,19 +15,19 @@
 
 
 // "OUTPUT_A" is going to be replaced with "A0".
-#define  OUTPUT_A 2
+#define  OUTPUT_A 3
 
 // "PIN_GND_ENCODER" is going to be replaced with "3".
-#define PIN_GND_ENCODER  3
+#define PIN_GND_ENCODER  4
 
 // "OUTPUT_B" is going to be replaced with "15".
-#define  OUTPUT_B 4
+#define  OUTPUT_B 5
 
 // "BUTTON" is going to be replaced with "A1".
-#define  BUTTON A1
+#define  BUTTON A0
 
 // "PIN_GND_BUTTON" is going to be replaced with "A3".
-#define PIN_GND_BUTTON  A3
+#define PIN_GND_BUTTON  A2
 
 // Declare variables aState, aLastState for checking the state of OUTPUT_A of the encoder
 bool aState;
