@@ -5,7 +5,7 @@
 // keeping pressing -> keeping seeking
 
 // Resolution : some encoder is too sensitive. this reduces sensitivity.
-#define RESOLUTION 2
+#define RESOLUTION 1
 
 // include a Keyboard library
 #include "Keyboard.h"
